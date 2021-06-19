@@ -1,7 +1,12 @@
 import React from "react";
+import AddToDo from "../components/Home/AddToDo";
 
 const Home = () => {
-    return <div>Home</div>;
+    return (
+        <div>
+            <AddToDo />
+        </div>
+    );
 };
 
 export default Home;
