@@ -5,7 +5,7 @@ const Navbar = () => {
     const { theme, toggleTheme } = useContext(ThemeContext);
 
     return (
-        <nav className="bg-white dark:bg-gray-800 shadow flex justify-between items-center fixed top-0 w-screen h-12 transition duration-150 text-base font-medium text-gray-700 dark:text-gray-200">
+        <nav className="bg-white dark:bg-gray-800 shadow flex justify-between items-center fixed top-0 w-screen h-12 transition duration-150 text-base font-medium text-gray-700 dark:text-gray-200 z-50">
             <div onClick={toggleTheme} className="ml-6 sm:ml-10 cursor-pointer">
                 {theme === "dark" ? (
                     <svg

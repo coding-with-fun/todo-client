@@ -1,0 +1,10 @@
+.todo-list {
+    overflow-y: scroll;
+    max-height: 83%;
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
+}
+
+.todo-list::-webkit-scrollbar {
+    display: none;
+}
