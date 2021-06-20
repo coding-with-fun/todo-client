@@ -6,7 +6,7 @@ const Footer = () => {
             <span className="my-auto">
                 Made by{" "}
                 <a
-                    href="github.com"
+                    href="https://github.com/harsh2124"
                     className="hover:text-indigo-500 dark:hover:text-indigo-400 font-bold"
                 >
                     Coderc
